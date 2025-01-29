@@ -29,7 +29,10 @@
 					"sink": {
 						"type": "SnowflakeV2Sink",
 						"importSettings": {
-							"type": "SnowflakeImportCopyCommand"
+							"type": "SnowflakeImportCopyCommand",
+							"additionalCopyOptions": {
+								"FORCE": "TRUE"
+							}
 						}
 					},
 					"enableStaging": false
