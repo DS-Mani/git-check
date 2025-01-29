@@ -14,6 +14,10 @@
 				"container": "demo-new"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": {
+				"value": "\r\n",
+				"type": "Expression"
+			},
 			"escapeChar": "\\",
 			"firstRowAsHeader": false,
 			"quoteChar": "\""
