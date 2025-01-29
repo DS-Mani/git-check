@@ -48,6 +48,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"test": {
+				"type": "string",
+				"defaultValue": "result"
+			}
+		},
 		"annotations": []
 	}
 }
