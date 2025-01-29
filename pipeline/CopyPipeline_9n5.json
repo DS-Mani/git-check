@@ -24,18 +24,6 @@
 					}
 				],
 				"typeProperties": {
-					"source": {
-						"type": "DelimitedTextSource",
-						"storeSettings": {
-							"type": "AzureBlobStorageReadSettings",
-							"recursive": true,
-							"enablePartitionDiscovery": false
-						},
-						"formatSettings": {
-							"type": "DelimitedTextReadSettings",
-							"skipLineCount": 0
-						}
-					},
 					"sink": {
 						"type": "SnowflakeV2Sink",
 						"importSettings": {
@@ -234,12 +222,6 @@
 						]
 					}
 				},
-				"inputs": [
-					{
-						"referenceName": "SourceDataset_9n5",
-						"type": "DatasetReference"
-					}
-				],
 				"outputs": [
 					{
 						"referenceName": "DestinationDataset_9n5",
