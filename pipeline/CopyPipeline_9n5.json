@@ -1,48 +1,6 @@
 {
 	"name": "CopyPipeline_9n5",
 	"properties": {
-		"activities": [
-			{
-				"name": "Copy_9n5",
-				"type": "Copy",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [
-					{
-						"name": "Source",
-						"value": "demo-new//customer_data_2024_08_29_06_58.csv"
-					},
-					{
-						"name": "Destination",
-						"value": "BOOKING.BOOK"
-					}
-				],
-				"typeProperties": {
-					"enableStaging": false,
-					"enableSkipIncompatibleRow": true,
-					"logSettings": {
-						"enableCopyActivityLog": true,
-						"copyActivityLogSettings": {
-							"logLevel": "Info",
-							"enableReliableLogging": false
-						},
-						"logLocationSettings": {
-							"linkedServiceName": {
-								"referenceName": "AzureBlobStorage1",
-								"type": "LinkedServiceReference"
-							},
-							"path": "demo-new"
-						}
-					}
-				}
-			}
-		],
 		"annotations": []
 	}
 }

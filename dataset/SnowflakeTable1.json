@@ -1,0 +1,29 @@
+{
+	"name": "SnowflakeTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "snowtarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "EMPLOYEE_ID",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "NAME",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "SALARY",
+				"type": "VARCHAR"
+			}
+		],
+		"typeProperties": {
+			"schema": "BOOKING",
+			"table": "ROOM"
+		}
+	}
+}
