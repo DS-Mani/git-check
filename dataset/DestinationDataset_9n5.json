@@ -9,78 +9,20 @@
 		"type": "SnowflakeV2Table",
 		"schema": [
 			{
-				"name": "ID",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "BOOKING_ID",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "PROPERTY_ID",
-				"type": "VARCHAR"
-			},
-			{
 				"name": "CUSTOMER_ID",
-				"type": "NUMBER",
-				"precision": 38,
-				"scale": 0
-			},
-			{
-				"name": "OWNER_ID",
 				"type": "VARCHAR"
 			},
 			{
-				"name": "CHECK_IN_DATE",
+				"name": "FIRST_NAME",
 				"type": "VARCHAR"
 			},
 			{
-				"name": "CHECK_OUT_DATE",
+				"name": "LAST_NAME",
 				"type": "VARCHAR"
 			},
 			{
-				"name": "BOOKING_DATE",
+				"name": "EMAIL",
 				"type": "VARCHAR"
-			},
-			{
-				"name": "AMOUNT",
-				"type": "NUMBER",
-				"precision": 38,
-				"scale": 0
-			},
-			{
-				"name": "CURRENCY",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "PROPERTY_LOCATION",
-				"type": "VARIANT"
-			},
-			{
-				"name": "TIMESTAMP",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "_RID",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "_SELF",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "_ETAG",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "_ATTACHMENTS",
-				"type": "VARCHAR"
-			},
-			{
-				"name": "_TS",
-				"type": "NUMBER",
-				"precision": 38,
-				"scale": 0
 			}
 		],
 		"typeProperties": {
