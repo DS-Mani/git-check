@@ -14,22 +14,18 @@
 				"container": "demo-new"
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": "",
 			"escapeChar": "\\",
-			"firstRowAsHeader": true,
+			"firstRowAsHeader": false,
 			"quoteChar": "\""
 		},
 		"schema": [
 			{
-				"name": "employee_id",
 				"type": "String"
 			},
 			{
-				"name": "name",
 				"type": "String"
 			},
 			{
-				"name": "salary",
 				"type": "String"
 			}
 		]
