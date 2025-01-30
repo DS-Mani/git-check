@@ -10,9 +10,7 @@
 		"schema": [
 			{
 				"name": "ID",
-				"type": "NUMBER",
-				"precision": 38,
-				"scale": 0
+				"type": "VARCHAR"
 			},
 			{
 				"name": "NAME",
@@ -20,14 +18,12 @@
 			},
 			{
 				"name": "SAL",
-				"type": "NUMBER",
-				"precision": 38,
-				"scale": 0
+				"type": "VARCHAR"
 			}
 		],
 		"typeProperties": {
 			"schema": "BOOKING",
-			"table": "ROOM1"
+			"table": "ROOM3"
 		}
 	}
 }
