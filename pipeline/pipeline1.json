@@ -32,7 +32,13 @@
 							"type": "SnowflakeImportCopyCommand"
 						}
 					},
-					"enableStaging": false,
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureBlobStorage1",
+							"type": "LinkedServiceReference"
+						}
+					},
 					"enableSkipIncompatibleRow": true,
 					"logSettings": {
 						"enableCopyActivityLog": true,
@@ -52,18 +58,18 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "employee_id",
-									"type": "Int64"
+									"type": "String",
+									"ordinal": 1
 								},
 								"sink": {
 									"name": "ID",
-									"type": "Int64"
+									"type": "String"
 								}
 							},
 							{
 								"source": {
-									"name": "name",
-									"type": "String"
+									"type": "String",
+									"ordinal": 2
 								},
 								"sink": {
 									"name": "NAME",
@@ -72,12 +78,12 @@
 							},
 							{
 								"source": {
-									"name": "salary",
-									"type": "Int64"
+									"type": "String",
+									"ordinal": 3
 								},
 								"sink": {
 									"name": "SAL",
-									"type": "Int64"
+									"type": "String"
 								}
 							}
 						]
